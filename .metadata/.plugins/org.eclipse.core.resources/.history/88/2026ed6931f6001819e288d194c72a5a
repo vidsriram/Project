@@ -1,0 +1,17 @@
+package automationFramework;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FirstTestcase {
+	
+public static void main(String args[]) {
+	WebDriver driver = new ChromeDriver();
+	driver.get("http://www.store.demoqa.com");
+	System.out.println("Success");
+	Thread.sleep(5000);
+	driver.close();
+	
+}
+
+}

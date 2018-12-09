@@ -1,0 +1,34 @@
+package automationFramework;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FirstTestcase {
+	
+public static void main(String args[]) throws InterruptedException {
+	WebDriver driver = new ChromeDriver();
+	String url = "http://www.store.demoqa.com";
+	driver.get(url);
+	String title = driver.getTitle();
+	int titleLength=driver.getTitle().length();
+	System.out.println("Page title is:"+title);
+	System.out.println("Title length is:"+titleLength);
+	String actualurl= driver.getCurrentUrl();
+	if(actualurl.equals(url)) {
+		System.out.println("Verification successfull");
+	}else {
+		System.out.println("Verification failed");
+		System.out.println("Current url:"+actualurl);
+		System.out.println("url"+url);
+	}
+	String pageSource = driver.getPageSource();
+	int pageSourceLength = driver.getPageSource().length();
+	System.out.println("Page source length is:"+pageSourceLength);
+	Thread.sleep(5000);
+	driver.findElement(By.id("menu-item-72")).click();
+	driver.close();
+	
+}
+
+}
