@@ -113,7 +113,7 @@
 		<h2 align="center">Product List</h2>
 		<div class="w3-responsive">
 		<table class="w3-table-all">
-		<Table align="Center" border ="1">
+		<Table align="Center" border ="2">
 		<tr>
 		<th> Product ID</th>
 		<th>Product Name</th>

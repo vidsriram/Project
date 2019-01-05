@@ -1,4 +1,3 @@
-
 <html>
 <head>
 <meta charset="utf-8">
@@ -26,35 +25,14 @@
       <a class="navbar-brand" href="#">FURNITURE SHOPPEEE</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="home">Home</a></li>
-      <li><a href="addproductpage">ADD PRODUCT</a></li>
-      <li><a href="addSupplierpage">ADD SUPPLIER</a></li>
-      <li><a href="categoryPage">ADD CATEGORY</a></li>
+      <li class="active"><a href="index">Home</a></li>
+      <li><a href="AboutUS">About us</a></li>
+      <li><a href="Login">Login</a></li>
       <li><a href="Register">Registration</a></li>
     </ul>
   </div>
 </nav>
    </div>
-  
-  
-  
-  
-  <div class="row"> <!-- Slideshow --> </div>
-  
-  
- 
- 
-  <div class="row"> <!--  other stuff -->
-    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
-    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
-    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
-  </div>
-</div>
-
-
-<!-- 	<br /> To add new supplier -->
-<!-- 	<a href="">Click here</a> To add product -->
-<!-- 	<a href="">Click here</a> Category -->
-<!-- 	<a href="">Click here</a> -->
-</body>
-</html>
+   </div>
+   </body>
+   </html>

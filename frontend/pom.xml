@@ -16,8 +16,6 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
-
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -56,7 +54,7 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-<dependency>
+		<dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-core</artifactId>
     <version>4.2.2.RELEASE</version>
@@ -70,10 +68,15 @@
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-config</artifactId>
     <version>4.2.1.RELEASE</version>
-</dependency
-
-	</dependencies>
+</dependency>
+<dependency>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-taglibs</artifactId>
+    <version>4.2.1.RELEASE</version>
+</dependency>
+		
+      </dependencies>
 	<build>
 		<finalName>frontend</finalName>
 	</build>
-</project>
+    </project>

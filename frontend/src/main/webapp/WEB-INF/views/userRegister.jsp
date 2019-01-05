@@ -54,7 +54,7 @@
   <div class="col-md-4 inputgroupContainer">
   <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="username" placeholder="Username" class="form-control"  type="text">
+  <input  name="name" placeholder="Username" class="form-control"  type="text">
     </div>
   </div>
 </div>
