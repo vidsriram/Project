@@ -54,6 +54,7 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-core</artifactId>
@@ -76,6 +77,10 @@
 </dependency>
 		
       </dependencies>
+=======
+
+	</dependencies>
+>>>>>>> 14de933b0b4066a1ab413a3b71d7d3c3eb426ce6
 	<build>
 		<finalName>frontend</finalName>
 	</build>
